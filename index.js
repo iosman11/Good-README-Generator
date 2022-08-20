@@ -71,3 +71,5 @@ function init() {
         console.log(err);
       });
 }
+
+init();
