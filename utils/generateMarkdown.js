@@ -4,7 +4,8 @@ function renderLicenseBadge(license) {
     if(license !=="NO LICENSE"){
       return`<img src="https://img.shields.io/badge/LICENSE-${license}-blue.svg">`
       
-    }else{return ""}
+    }else{return "";
+}
   }
   
   
@@ -12,7 +13,8 @@ function renderLicenseBadge(license) {
     if(license !=="NO LICENSE"){
       return`* [License](#license)`
       
-    }else{return ""}
+    }else{return "";
+}
   }
   
   
